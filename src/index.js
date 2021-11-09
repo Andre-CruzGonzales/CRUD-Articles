@@ -24,7 +24,7 @@ const options={
     apis:[`${path.join(__dirname,"./routes/*.js")}`],
 };
 //puerto
-const port = process.env.PORT || 10801;
+const port = process.env.PORT || 3000;
 
 //middleware
 app.use(express.json());
